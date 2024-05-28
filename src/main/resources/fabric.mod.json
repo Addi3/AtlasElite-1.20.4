@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "atlas-elite",
+	"version": "${version}",
+	"name": "Atlas Elite",
+	"description": "Just some cool stuff i've made into a mod :0",
+	"authors": [
+		"Addison Astarr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/atlaselite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.addie.atlaselite.AtlasElite"
+		],
+		"client": [
+			"net.addie.atlaselite.AtlasEliteClient"
+		],
+		"fabric-datagen": [
+			"net.addie.atlaselite.AtlasEliteDataGenerator"
+		]
+	},
+	"mixins": [
+		"atlaselite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
