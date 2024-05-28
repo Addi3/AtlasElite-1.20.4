@@ -1,5 +1,6 @@
 package net.addie.atlaselite;
 
+import net.addie.atlaselite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class AtlasElite implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 		LOGGER.info("Success!");
 	}
 }
