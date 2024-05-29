@@ -1,0 +1,3 @@
+atlaselite:addium_block BLOCK
+atlaselite:addium_ingot INGOT
+atlaselite:raw_addium RAW
