@@ -1,0 +1,13 @@
+// 1.20.4	2024-05-29T17:24:47.8295815	Atlas Elite/Recipes
+1c0c9ebc6c8357262427edb58f7b2386ff4b91c8 data\atlas-elite\recipes\raw_addium_block.json
+707e9bc4103b450d54f2fa87bf2e2136f23a649c data\atlas-elite\advancements\recipes\misc\addium_ingot_from_smelting_raw_addium.json
+e0fa83471acab3cc72d6bdcf9453b65a57db64b6 data\atlas-elite\recipes\addium_ingot_from_blasting_raw_addium.json
+d1b8f97d0b0748d0b95994ccc2e50c533fa6c47a data\atlas-elite\recipes\raw_addium.json
+feafdbe5e9d0fcfa0d7ebbc65d1e6945f516d25c data\atlas-elite\advancements\recipes\building_blocks\raw_addium.json
+4debecbc2264df176f6d4ad86a806d0cfb70e9f2 data\atlas-elite\advancements\recipes\decorations\raw_addium_block.json
+d827df3c05c4297c54723b8e9e521710282b2886 data\atlas-elite\recipes\addium_ingot.json
+185289cd9316aeeacd5f2548fdd49faf4f36ad1b data\atlas-elite\recipes\addium_block.json
+ab5998636aeef8e7d6538e43023097d139c8d717 data\atlas-elite\advancements\recipes\misc\addium_ingot_from_blasting_raw_addium.json
+dd8a9695c9870ab27825588a88ae7dae9058cda4 data\atlas-elite\advancements\recipes\decorations\addium_block.json
+5b3ce0245d5f9b277a3ba1ea83e5a0b4772d259e data\atlas-elite\advancements\recipes\building_blocks\addium_ingot.json
+8ea365eee277fe5259a8890c310cf85ccc819d61 data\atlas-elite\recipes\addium_ingot_from_smelting_raw_addium.json

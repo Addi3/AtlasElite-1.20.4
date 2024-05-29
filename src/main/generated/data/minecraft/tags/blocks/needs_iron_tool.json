@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "atlaselite:raw_addium_block",
+    "atlaselite:addium_ore",
+    "atlaselite:addium_block"
+  ]
+}

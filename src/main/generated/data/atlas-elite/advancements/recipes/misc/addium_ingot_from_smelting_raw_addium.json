@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_addium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atlaselite:raw_addium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:addium_ingot_from_smelting_raw_addium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_addium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:addium_ingot_from_smelting_raw_addium"
+    ]
+  }
+}
