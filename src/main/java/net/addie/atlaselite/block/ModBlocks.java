@@ -15,6 +15,9 @@ public class ModBlocks {
 
     public static final Block ADDIUM_BLOCK = registerBlock("addium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block ADDIUM_ORE = registerBlock("addium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(AtlasElite.MOD_ID, name), block);

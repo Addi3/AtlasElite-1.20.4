@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ADDIUM_INGOT);
                         entries.add(ModItems.RAW_ADDIUM);
                         entries.add(ModBlocks.ADDIUM_BLOCK);
+                        entries.add(ModBlocks.ADDIUM_ORE);
 
 
                     }).build());
