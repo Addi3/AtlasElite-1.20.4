@@ -1,3 +1,6 @@
 {
-  "item.atlaselite.addiom_ingot": "Addiom Ingot"
+  "item.atlaselite.addiom_ingot": "Addiom Ingot",
+  "item.atlaselite.raw_addiom": "Raw Addiom",
+
+  "itemgroup.addiom_ingot": "Atlas Elite"
 }

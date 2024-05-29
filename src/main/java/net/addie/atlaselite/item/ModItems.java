@@ -12,18 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ADDIOM_INGOT = registerItem("addiom_ingot", new Item(new FabricItemSettings()));
-
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(ADDIOM_INGOT);
-    }
-
+    public static final Item RAW_ADDIOM = registerItem("raw_addiom", new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AtlasElite.MOD_ID, name), item);
     }
-
     public static void registerModItems() {
-        AtlasElite.LOGGER.info("Registering Mod Items for " + AtlasElite.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        AtlasElite.LOGGER.info("Registering Items Groups for " + AtlasElite.MOD_ID);
     }
 }

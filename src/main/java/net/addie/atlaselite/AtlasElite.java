@@ -1,5 +1,6 @@
 package net.addie.atlaselite;
 
+import net.addie.atlaselite.item.ModItemGroups;
 import net.addie.atlaselite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +13,7 @@ public class AtlasElite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		LOGGER.info("Successfuly loaded!");
 	}
