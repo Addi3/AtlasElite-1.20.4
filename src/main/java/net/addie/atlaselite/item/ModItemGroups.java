@@ -2,6 +2,7 @@ package net.addie.atlaselite.item;
 
 import com.ibm.icu.text.DisplayContext;
 import net.addie.atlaselite.AtlasElite;
+import net.addie.atlaselite.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.minecraft.item.Item;
@@ -22,6 +23,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ADDIOM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ADDIOM_INGOT);
                         entries.add(ModItems.RAW_ADDIOM);
+                        entries.add(ModBlocks.ADDIOM_BLOCK);
 
 
                     }).build());
