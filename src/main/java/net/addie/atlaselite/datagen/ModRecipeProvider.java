@@ -37,6 +37,48 @@ offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModIt
                 .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_SWORD)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_SHOVEL, 1)
+                .pattern("A")
+                .pattern("S")
+                .pattern("S")
+                .input('A', ModItems.ADDIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_PICKAXE, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .input('S', Items.STICK)
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_PICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_AXE, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .input('S', Items.STICK)
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_AXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_HOE, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .input('S', Items.STICK)
+                .pattern("AA ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_HOE)));
+
+
+
 
 
 
