@@ -11,8 +11,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item ADDIOM_INGOT = registerItem("addiom_ingot", new Item(new FabricItemSettings()));
-    public static final Item RAW_ADDIOM = registerItem("raw_addiom", new Item(new FabricItemSettings()));
+    public static final Item ADDIUM_INGOT = registerItem("addium_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_ADDIUM = registerItem("raw_addium", new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AtlasElite.MOD_ID, name), item);
     }

@@ -1,8 +1,8 @@
 {
-  "item.atlaselite.addiom_ingot": "Addiom Ingot",
-  "item.atlaselite.raw_addiom": "Raw Addiom",
+  "item.atlaselite.addium_ingot": "Addium Ingot",
+  "item.atlaselite.raw_addium": "Raw Addium",
 
-  "block.atlaselite.addiom_block": "Block Of Addiom",
+  "block.atlaselite.addium_block": "Block Of Addium",
 
-  "itemgroup.addiom_ingot": "Atlas Elite"
+  "itemgroup.addium_ingot": "Atlas Elite"
 }

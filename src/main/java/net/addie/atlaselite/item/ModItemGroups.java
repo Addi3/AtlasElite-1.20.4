@@ -17,13 +17,13 @@ public class ModItemGroups {
     public static void registerItemGroups() {
         AtlasElite.LOGGER.info("Registering Item Groups for " + AtlasElite.MOD_ID);
     }
-    public static final ItemGroup ADDIOM_INGOT_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AtlasElite.MOD_ID, "addiom_ingot"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.addiom_ingot"))
-                    .icon(() -> new ItemStack(ModItems.ADDIOM_INGOT)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.ADDIOM_INGOT);
-                        entries.add(ModItems.RAW_ADDIOM);
-                        entries.add(ModBlocks.ADDIOM_BLOCK);
+    public static final ItemGroup ADDIUM_INGOT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(AtlasElite.MOD_ID, "addium_ingot"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.addium_ingot"))
+                    .icon(() -> new ItemStack(ModItems.ADDIUM_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.ADDIUM_INGOT);
+                        entries.add(ModItems.RAW_ADDIUM);
+                        entries.add(ModBlocks.ADDIUM_BLOCK);
 
 
                     }).build());

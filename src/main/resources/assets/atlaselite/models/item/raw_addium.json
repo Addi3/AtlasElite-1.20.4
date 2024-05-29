@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "atlaselite:item/addiom_ingot"
+		"layer0": "atlaselite:item/raw_addium"
 	},
 	"display": {
 		"thirdperson_righthand": {

@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block ADDIOM_BLOCK = registerBlock("addiom_block",
+    public static final Block ADDIUM_BLOCK = registerBlock("addium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

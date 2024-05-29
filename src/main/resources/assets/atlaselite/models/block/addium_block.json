@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "atlaselite:block/addiom_block"
+    "all": "atlaselite:block/addium_block"
   }
 }
