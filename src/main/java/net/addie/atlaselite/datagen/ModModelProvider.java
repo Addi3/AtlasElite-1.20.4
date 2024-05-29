@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import org.jetbrains.annotations.NotNull;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -14,7 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+    public void generateBlockStateModels(@NotNull BlockStateModelGenerator blockStateModelGenerator) {
 blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_BLOCK);
 blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ADDIUM_BLOCK);
 blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_ORE);
@@ -24,5 +25,10 @@ blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_ORE);
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 itemModelGenerator.register(ModItems.RAW_ADDIUM, Models.GENERATED);
 itemModelGenerator.register(ModItems.ADDIUM_INGOT, Models.GENERATED);
+itemModelGenerator.register(ModItems.ADDIUM_SHOVEL, Models.HANDHELD);
+itemModelGenerator.register(ModItems.ADDIUM_AXE, Models.HANDHELD);
+itemModelGenerator.register(ModItems.ADDIUM_PICKAXE, Models.HANDHELD);
+itemModelGenerator.register(ModItems.ADDIUM_HOE, Models.HANDHELD);
+itemModelGenerator.register(ModItems.ADDIUM_SWORD, Models.HANDHELD);
     }
 }

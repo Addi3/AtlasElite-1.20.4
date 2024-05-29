@@ -1,4 +1,2 @@
--Rename addiom to addium
--add addium ore block
--finnish addium block for survival
 -add ore generation
+-add addium tool / armor sets

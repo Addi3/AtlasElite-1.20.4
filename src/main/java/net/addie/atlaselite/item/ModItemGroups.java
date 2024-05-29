@@ -26,6 +26,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ADDIUM_BLOCK);
                         entries.add(ModBlocks.ADDIUM_ORE);
                         entries.add(ModBlocks.RAW_ADDIUM_BLOCK);
+                        entries.add(ModItems.ADDIUM_AXE);
+                        entries.add(ModItems.ADDIUM_HOE);
+                        entries.add(ModItems.ADDIUM_SWORD);
+                        entries.add(ModItems.ADDIUM_SHOVEL);
+                        entries.add(ModItems.ADDIUM_PICKAXE);
 
 
                     }).build());

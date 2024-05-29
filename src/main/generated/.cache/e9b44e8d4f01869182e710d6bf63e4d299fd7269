@@ -1,9 +1,14 @@
-// 1.20.4	2024-05-29T17:24:47.8295815	Atlas Elite/Model Definitions
+// 1.20.4	2024-05-29T23:32:32.5063285	Atlas Elite/Model Definitions
+8b429bf10379e2097dcb645301d0ade33921521e assets\atlaselite\models\block\addium_ore.json
+8f2d970cff81f8a17778aaf66ca8ef54f31f3bf8 assets\atlaselite\models\item\addium_hoe.json
+9cacde0ec79a6ad0f043663e0684c85125f85ca5 assets\atlaselite\models\item\addium_axe.json
+01cfcbb979f4660e467e220f2d5dde397a27a36f assets\atlaselite\models\item\addium_shovel.json
+e81c3b4cef951865d337aa07d56809c783b91e7c assets\atlaselite\models\item\addium_pickaxe.json
+9ea90e8da046dffc8d48b58c5db71565d853ef3e assets\atlaselite\models\item\addium_sword.json
+54122bba0cffb129e8e2882f69cdc1fd49269946 assets\atlaselite\models\item\addium_ingot.json
 92e3a49f8b24c5d6a8df7e994440c9946225b588 assets\atlaselite\blockstates\addium_ore.json
 6d77ea4ff7f8bd02acfa1568dfacf90902c7d0a6 assets\atlaselite\models\item\raw_addium.json
 49d1dd44c6b6298c4b8dc6bc42b14dd12b277bf9 assets\atlaselite\models\block\addium_block.json
-8b429bf10379e2097dcb645301d0ade33921521e assets\atlaselite\models\block\addium_ore.json
 b5eaf4f3861d0f784dceab36632379b45fbc5063 assets\atlaselite\blockstates\addium_block.json
 68324c33047579f308148f5752bdd238bf9597b5 assets\atlaselite\models\block\raw_addium_block.json
-54122bba0cffb129e8e2882f69cdc1fd49269946 assets\atlaselite\models\item\addium_ingot.json
 7c764b5970edf070bc899a05b01c578d14915a06 assets\atlaselite\blockstates\raw_addium_block.json

@@ -1,6 +1,11 @@
 {
   "item.atlaselite.addium_ingot": "Addium Ingot",
   "item.atlaselite.raw_addium": "Raw Addium",
+  "item.atlaselite.addium_sword": "Addium Sword",
+  "item.atlaselite.addium_pickaxe": "Addium Pickaxe",
+  "item.atlaselite.addium_axe": "Addium Axe",
+  "item.atlaselite.addium_shovel": "Addium Shovel",
+  "item.atlaselite.addium_hoe": "Addium Hoe",
 
   "block.atlaselite.addium_block": "Block Of Addium",
   "block.atlaselite.addium_ore": "Addium Ore",
