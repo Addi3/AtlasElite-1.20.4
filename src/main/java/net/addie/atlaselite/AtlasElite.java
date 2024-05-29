@@ -14,6 +14,6 @@ public class AtlasElite implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
-		LOGGER.info("Success!");
+		LOGGER.info("Successfuly loaded!");
 	}
 }
