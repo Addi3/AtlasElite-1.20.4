@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "atlas_elite:item/addiom_ingot"
+    "layer0": "atlaselite:item/addiom_ingot"
   }
 }
