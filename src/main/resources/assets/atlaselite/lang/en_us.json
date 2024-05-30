@@ -10,6 +10,10 @@
   "block.atlaselite.addium_block": "Block Of Addium",
   "block.atlaselite.addium_ore": "Addium Ore",
   "block.atlaselite.raw_addium_block": "Block Of Raw Addium",
+  "item.atlaselite.addium_ingot_helmet": "Addium Helmet",
+  "item.atlaselite.addium_ingot_chestplate": "Addium Chestplate",
+  "item.atlaselite.addium_ingot_leggings": "Addium Leggings",
+  "item.atlaselite.addium_ingot_boots": "Addium Boots",
 
   "itemgroup.addium_ingot": "Atlas Elite"
 }

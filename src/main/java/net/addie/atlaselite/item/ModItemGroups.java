@@ -31,6 +31,10 @@ public class ModItemGroups {
                         entries.add(ModItems.ADDIUM_SWORD);
                         entries.add(ModItems.ADDIUM_SHOVEL);
                         entries.add(ModItems.ADDIUM_PICKAXE);
+                        entries.add(ModItems.ADDIUM_INGOT_HELMET);
+                        entries.add(ModItems.ADDIUM_INGOT_CHESTPLATE);
+                        entries.add(ModItems.ADDIUM_INGOT_LEGGINGS);
+                        entries.add(ModItems.ADDIUM_INGOT_BOOTS);
 
 
                     }).build());

@@ -22,6 +22,20 @@ public class ModItems {
             2, 2f, new FabricItemSettings()));
     public static final Item ADDIUM_HOE = registerItem("addium_hoe", new HoeItem(ModToolMaterial.ADDIUM_INGOT,
             2, 2f, new FabricItemSettings()));
+
+    public static final Item ADDIUM_INGOT_HELMET = registerItem("addium_ingot_helmet", new ArmorItem(ModArmorMaterials.ADDIUM_INGOT,
+              ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ADDIUM_INGOT_CHESTPLATE = registerItem("addium_ingot_chestplate", new ArmorItem(ModArmorMaterials.ADDIUM_INGOT,
+              ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ADDIUM_INGOT_LEGGINGS = registerItem("addium_ingot_leggings", new ArmorItem(ModArmorMaterials.ADDIUM_INGOT,
+              ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ADDIUM_INGOT_BOOTS = registerItem("addium_ingot_boots", new ArmorItem(ModArmorMaterials.ADDIUM_INGOT,
+              ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AtlasElite.MOD_ID, name), item);
 

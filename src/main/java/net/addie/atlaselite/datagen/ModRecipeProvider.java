@@ -77,6 +77,37 @@ offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModIt
                 .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_HOE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_INGOT_HELMET, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("AAA")
+                .pattern("A A")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_INGOT_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_INGOT_CHESTPLATE, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_INGOT_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_INGOT_LEGGINGS, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_INGOT_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_INGOT_BOOTS, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("A A")
+                .pattern("A A")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_INGOT_BOOTS)));
+
+
 
 
 

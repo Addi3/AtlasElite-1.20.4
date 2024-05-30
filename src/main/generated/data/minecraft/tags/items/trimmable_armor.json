@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "atlaselite:addium_ingot_helmet",
+    "atlaselite:addium_ingot_chestplate",
+    "atlaselite:addium_ingot_leggings",
+    "atlaselite:addium_ingot_boots"
+  ]
+}
