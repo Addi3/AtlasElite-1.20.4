@@ -1,4 +1,17 @@
-atlaselite:addium_block BLOCK
-atlaselite:addium_ingot INGOT
-atlaselite:raw_addium RAW
-atlaselite:addium_ore ORE
+atlaselite:addium_block ADDIUM BLOCK
+atlaselite:raw_addium_block RAW ADDIUM BLOCK
+atlaselite:addium_ingot ADDIUM INGOT
+atlaselite:raw_addium RAW ADDIUM 
+atlaselite:addium_ore ADDIUM ORE
+atlaselite:addium_sword ADDIUM SWORD
+atlaselite:addium_axe ADDIUM AXE
+atlaselite:addium_pickaxe ADDIUM PICKAXE
+atlaselite:addium_shovel ADDIUM SHOVEL
+atlaselite:addium_hoe ADDIUM HOE
+atlaselite:addium_ingot_helmet ADDIUM HELMET
+atlaselite:addium_ingot_chestplate ADDIUM CHESTPLATE
+atlaselite:addium_ingot_leggings ADDUIM LEGGINGS
+atlaselite:addium_ingot_boots ADDIUM BOOTS
+
+
+
