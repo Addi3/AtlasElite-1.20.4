@@ -1,2 +1,0 @@
--add ore generation
--add addium tool / armor sets

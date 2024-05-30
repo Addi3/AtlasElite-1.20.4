@@ -3,6 +3,7 @@ package net.addie.atlaselite;
 import net.addie.atlaselite.block.ModBlocks;
 import net.addie.atlaselite.item.ModItemGroups;
 import net.addie.atlaselite.item.ModItems;
+import net.addie.atlaselite.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class AtlasElite implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Successfuly loaded!");
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
