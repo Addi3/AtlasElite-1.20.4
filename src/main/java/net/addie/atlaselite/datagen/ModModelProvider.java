@@ -30,6 +30,7 @@ public class ModModelProvider extends FabricModelProvider {
      itemModelGenerator.register(ModItems.ADDIUM_AXE, Models.HANDHELD);
      itemModelGenerator.register(ModItems.ADDIUM_SHOVEL, Models.HANDHELD);
      itemModelGenerator.register(ModItems.ADDIUM_HOE, Models.HANDHELD);
+     itemModelGenerator.register(ModItems.ADDIUM_SILK, Models.HANDHELD);
 
      itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADDIUM_INGOT_HELMET));
      itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADDIUM_INGOT_CHESTPLATE));

@@ -35,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ADDIUM_INGOT_CHESTPLATE);
                         entries.add(ModItems.ADDIUM_INGOT_LEGGINGS);
                         entries.add(ModItems.ADDIUM_INGOT_BOOTS);
+                        entries.add(ModItems.ADDIUM_SILK);
 
 
                     }).build());
