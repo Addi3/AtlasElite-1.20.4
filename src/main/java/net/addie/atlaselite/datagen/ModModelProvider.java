@@ -37,7 +37,7 @@ addiumPoll.wall(ModBlocks.ADDIUM_WALL);
      itemModelGenerator.register(ModItems.ADDIUM_AXE, Models.HANDHELD);
      itemModelGenerator.register(ModItems.ADDIUM_SHOVEL, Models.HANDHELD);
      itemModelGenerator.register(ModItems.ADDIUM_HOE, Models.HANDHELD);
-     itemModelGenerator.register(ModItems.ADDIUM_SILK, Models.HANDHELD);
+     itemModelGenerator.register(ModItems.ADDIUM_SILK, Models.GENERATED);
 
      itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADDIUM_INGOT_HELMET));
      itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADDIUM_INGOT_CHESTPLATE));
