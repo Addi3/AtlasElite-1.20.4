@@ -26,6 +26,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ADDIUM_BLOCK);
                         entries.add(ModBlocks.ADDIUM_ORE);
                         entries.add(ModBlocks.RAW_ADDIUM_BLOCK);
+                        entries.add(ModBlocks.ADDIUM_WALL);
+                        entries.add(ModBlocks.ADDIUM_STAIRS);
+                        entries.add(ModBlocks.ADDIUM_SLAB);
                         entries.add(ModItems.ADDIUM_AXE);
                         entries.add(ModItems.ADDIUM_HOE);
                         entries.add(ModItems.ADDIUM_SWORD);

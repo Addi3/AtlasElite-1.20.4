@@ -1,4 +1,7 @@
-// 1.20.4	2024-05-31T11:48:01.6113045	Atlas Elite/Block Loot Tables
+// 1.20.4	2024-05-31T15:53:11.1786173	Atlas Elite/Block Loot Tables
 f43726a7645fe79894d3d96422a6d1fe43114df3 data\atlaselite\loot_tables\blocks\addium_ore.json
+209c688241001d26b42d3050a1e8438508464cc2 data\atlaselite\loot_tables\blocks\addium_wall.json
 154ec416693ebdb361fc98c7adbfa97082604591 data\atlaselite\loot_tables\blocks\addium_block.json
+4644b022fca3ad035df1f3dbafad861c943c4abd data\atlaselite\loot_tables\blocks\addium_slab.json
+3a0424d4068911643a5a34649167a79d6b7d2b30 data\atlaselite\loot_tables\blocks\addium_stairs.json
 22b7e9c4a7fd0bc2f5ba41e1180e508d886f3cae data\atlaselite\loot_tables\blocks\raw_addium_block.json

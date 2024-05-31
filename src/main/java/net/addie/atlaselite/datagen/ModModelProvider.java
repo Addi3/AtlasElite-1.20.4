@@ -16,9 +16,16 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-     blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_BLOCK);
+     BlockStateModelGenerator.BlockTexturePool addiumPoll = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_ORE);
+
+
+addiumPoll.slab(ModBlocks.ADDIUM_SLAB);
+addiumPoll.stairs(ModBlocks.ADDIUM_STAIRS);
+addiumPoll.wall(ModBlocks.ADDIUM_WALL);
+
+
     }
 
     @Override

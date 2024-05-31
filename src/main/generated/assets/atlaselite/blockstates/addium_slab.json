@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atlaselite:block/addium_slab"
+    },
+    "type=double": {
+      "model": "atlaselite:block/addium_block"
+    },
+    "type=top": {
+      "model": "atlaselite:block/addium_slab_top"
+    }
+  }
+}

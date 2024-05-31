@@ -8,6 +8,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -107,6 +108,37 @@ offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModIt
                 .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_INGOT_BOOTS)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADDIUM_SILK, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .input('B', Items.STRING)
+                .pattern(" A ")
+                .pattern("ABA")
+                .pattern(" A ")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STRING))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADDIUM_SILK)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ADDIUM_SLAB, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("AAA")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ADDIUM_SLAB)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ADDIUM_STAIRS, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("  A")
+                .pattern(" AA")
+                .pattern("AAA")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ADDIUM_STAIRS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ADDIUM_WALL, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("AAA")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ADDIUM_WALL)));
 
 
 

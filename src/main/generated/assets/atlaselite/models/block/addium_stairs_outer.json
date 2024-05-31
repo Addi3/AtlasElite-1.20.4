@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "atlaselite:block/addium_block",
+    "side": "atlaselite:block/addium_block",
+    "top": "atlaselite:block/addium_block"
+  }
+}

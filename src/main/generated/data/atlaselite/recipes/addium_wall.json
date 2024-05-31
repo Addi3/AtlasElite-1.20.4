@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "atlaselite:addium_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "atlaselite:addium_wall"
+  }
+}
