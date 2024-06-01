@@ -1,5 +1,6 @@
 {
   "item.atlaselite.addium_ingot": "Addium Ingot",
+  "item.atlaselite.shattered_addium_ingot": "Shattered Addium Ingot",
   "item.atlaselite.raw_addium": "Raw Addium",
   "item.atlaselite.addium_sword": "Addium Sword",
   "item.atlaselite.addium_pickaxe": "Addium Pickaxe",
@@ -9,11 +10,15 @@
   "item.atlaselite.addium_silk": "Addium Silk",
 
   "block.atlaselite.addium_block": "Block Of Addium",
+  "block.atlaselite.weak_addium_block": "Block Of Weak Addium",
   "block.atlaselite.addium_ore": "Addium Ore",
   "block.atlaselite.raw_addium_block": "Block Of Raw Addium",
   "block.atlaselite.addium_wall": "Addium Wall",
   "block.atlaselite.addium_stairs": "Addium Stairs",
   "block.atlaselite.addium_slab": "Addium Slab",
+  "block.atlaselite.weak_addium_wall": "Weak Addium Wall",
+  "block.atlaselite.weak_addium_stairs": "Weak Addium Stairs",
+  "block.atlaselite.weak_addium_slab": "Weak Addium Slab",
   "item.atlaselite.addium_ingot_helmet": "Addium Helmet",
   "item.atlaselite.addium_ingot_chestplate": "Addium Chestplate",
   "item.atlaselite.addium_ingot_leggings": "Addium Leggings",

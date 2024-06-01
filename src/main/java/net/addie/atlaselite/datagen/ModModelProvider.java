@@ -17,13 +17,18 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
      BlockStateModelGenerator.BlockTexturePool addiumPoll = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ADDIUM_BLOCK);
+     BlockStateModelGenerator.BlockTexturePool weakaddiumPoll = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WEAK_ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_ORE);
 
 
-addiumPoll.slab(ModBlocks.ADDIUM_SLAB);
-addiumPoll.stairs(ModBlocks.ADDIUM_STAIRS);
-addiumPoll.wall(ModBlocks.ADDIUM_WALL);
+        addiumPoll.slab(ModBlocks.ADDIUM_SLAB);
+        addiumPoll.stairs(ModBlocks.ADDIUM_STAIRS);
+        addiumPoll.wall(ModBlocks.ADDIUM_WALL);
+
+        weakaddiumPoll.slab(ModBlocks.WEAK_ADDIUM_SLAB);
+        weakaddiumPoll.stairs(ModBlocks.WEAK_ADDIUM_STAIRS);
+        weakaddiumPoll.wall(ModBlocks.WEAK_ADDIUM_WALL);
 
 
     }
@@ -31,6 +36,7 @@ addiumPoll.wall(ModBlocks.ADDIUM_WALL);
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
      itemModelGenerator.register(ModItems.ADDIUM_INGOT, Models.GENERATED);
+     itemModelGenerator.register(ModItems.SHATTERED_ADDIUM_INGOT, Models.GENERATED);
      itemModelGenerator.register(ModItems.RAW_ADDIUM, Models.GENERATED);
      itemModelGenerator.register(ModItems.ADDIUM_SWORD, Models.HANDHELD);
      itemModelGenerator.register(ModItems.ADDIUM_PICKAXE, Models.HANDHELD);

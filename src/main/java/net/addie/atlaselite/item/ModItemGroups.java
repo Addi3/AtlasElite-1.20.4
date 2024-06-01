@@ -22,13 +22,18 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.addium_ingot"))
                     .icon(() -> new ItemStack(ModItems.ADDIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ADDIUM_INGOT);
+                        entries.add(ModItems.SHATTERED_ADDIUM_INGOT);
                         entries.add(ModItems.RAW_ADDIUM);
                         entries.add(ModBlocks.ADDIUM_BLOCK);
+                        entries.add(ModBlocks.WEAK_ADDIUM_BLOCK);
                         entries.add(ModBlocks.ADDIUM_ORE);
                         entries.add(ModBlocks.RAW_ADDIUM_BLOCK);
                         entries.add(ModBlocks.ADDIUM_WALL);
                         entries.add(ModBlocks.ADDIUM_STAIRS);
                         entries.add(ModBlocks.ADDIUM_SLAB);
+                        entries.add(ModBlocks.WEAK_ADDIUM_WALL);
+                        entries.add(ModBlocks.WEAK_ADDIUM_STAIRS);
+                        entries.add(ModBlocks.WEAK_ADDIUM_SLAB);
                         entries.add(ModItems.ADDIUM_AXE);
                         entries.add(ModItems.ADDIUM_HOE);
                         entries.add(ModItems.ADDIUM_SWORD);

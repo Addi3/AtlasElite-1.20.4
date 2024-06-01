@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "atlaselite:addium_block"
+      "item": "atlaselite:weak_addium_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "atlaselite:addium_ingot"
+    "item": "atlaselite:shattered_addium_ingot"
   }
 }

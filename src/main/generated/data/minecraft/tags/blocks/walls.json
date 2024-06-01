@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "atlaselite:addium_wall"
+    "atlaselite:addium_wall",
+    "atlaselite:weak_addium_wall"
   ]
 }

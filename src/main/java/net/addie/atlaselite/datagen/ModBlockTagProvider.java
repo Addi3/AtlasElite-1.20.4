@@ -18,14 +18,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_BLOCK)
+                .add(ModBlocks.WEAK_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_ORE)
-                .add(ModBlocks.ADDIUM_BLOCK);
+                .add(ModBlocks.ADDIUM_BLOCK)
+                .add(ModBlocks.WEAK_ADDIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.ADDIUM_WALL);
+                .add(ModBlocks.ADDIUM_WALL)
+                .add(ModBlocks.WEAK_ADDIUM_WALL);
     }
 }

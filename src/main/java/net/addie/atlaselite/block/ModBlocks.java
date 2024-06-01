@@ -18,6 +18,9 @@ public class ModBlocks {
     public static final Block ADDIUM_BLOCK = registerBlock("addium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
+    public static final Block WEAK_ADDIUM_BLOCK = registerBlock("weak_addium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
     public static final Block ADDIUM_ORE = registerBlock("addium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
     public static final Block RAW_ADDIUM_BLOCK = registerBlock("raw_addium_block",
@@ -30,6 +33,15 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
     public static final Block ADDIUM_WALL = registerBlock("addium_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block WEAK_ADDIUM_STAIRS = registerBlock("weak_addium_stairs",
+            new StairsBlock(ModBlocks.ADDIUM_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block WEAK_ADDIUM_SLAB = registerBlock("weak_addium_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block WEAK_ADDIUM_WALL = registerBlock("weak_addium_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {

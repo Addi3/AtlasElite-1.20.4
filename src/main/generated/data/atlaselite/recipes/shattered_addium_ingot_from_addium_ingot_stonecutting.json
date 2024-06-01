@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "atlaselite:addium_ingot"
+  },
+  "result": "atlaselite:shattered_addium_ingot"
+}
