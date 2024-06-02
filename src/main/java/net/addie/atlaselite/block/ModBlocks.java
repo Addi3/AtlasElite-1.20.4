@@ -23,11 +23,14 @@ public class ModBlocks {
 
     public static final Block ADDIUM_ORE = registerBlock("addium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+
+    public static final Block ADDIUM_STAINED_GLASS = registerBlock("addium_stained_glass",
+            new TintedGlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));
     public static final Block RAW_ADDIUM_BLOCK = registerBlock("raw_addium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
 
     public static final Block ADDIUM_STAIRS = registerBlock("addium_stairs",
-            new StairsBlock(ModBlocks.ADDIUM_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+            new StairsBlock(ModBlocks.ADDIUM_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque()));
 
     public static final Block ADDIUM_SLAB = registerBlock("addium_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));

@@ -27,6 +27,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.ADDIUM_BLOCK);
         addDrop(ModBlocks.WEAK_ADDIUM_BLOCK);
+        addDrop(ModBlocks.ADDIUM_STAINED_GLASS);
         addDrop(ModBlocks.RAW_ADDIUM_BLOCK);
         addDrop(ModBlocks.ADDIUM_WALL);
         addDrop(ModBlocks.WEAK_ADDIUM_WALL);

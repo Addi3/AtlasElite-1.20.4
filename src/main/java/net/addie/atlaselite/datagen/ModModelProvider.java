@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
      BlockStateModelGenerator.BlockTexturePool weakaddiumPoll = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WEAK_ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_ORE);
+     blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_STAINED_GLASS);
 
 
         addiumPoll.slab(ModBlocks.ADDIUM_SLAB);

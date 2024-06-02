@@ -18,6 +18,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_BLOCK)
+                .add(ModBlocks.ADDIUM_STAINED_GLASS)
                 .add(ModBlocks.WEAK_ADDIUM_BLOCK)
                 .add(ModBlocks.WEAK_ADDIUM_SLAB)
                 .add(ModBlocks.WEAK_ADDIUM_STAIRS)
@@ -27,6 +28,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
+                .add(ModBlocks.ADDIUM_STAINED_GLASS)
                 .add(ModBlocks.ADDIUM_ORE)
                 .add(ModBlocks.ADDIUM_BLOCK)
                 .add(ModBlocks.WEAK_ADDIUM_SLAB)

@@ -1,4 +1,4 @@
-// 1.20.4	2024-06-02T01:03:13.5425068	Atlas Elite/Recipes
+// 1.20.4	2024-06-02T16:28:23.4722044	Atlas Elite/Recipes
 1c0c9ebc6c8357262427edb58f7b2386ff4b91c8 data\atlaselite\recipes\raw_addium_block.json
 1c253367ffbdb1649e6162cb46c1e075851765da data\atlaselite\recipes\addium_ingot_helmet.json
 8c0679a57bf3c3d6f57adc9bd41d25f7f623cde7 data\atlaselite\recipes\weak_addium_block.json
@@ -25,6 +25,7 @@ ff196e415af3b2f788b6f991550397946f8ade25 data\atlaselite\advancements\recipes\mi
 0319f01e12941b87bde2585f924c1ea0c87b55f5 data\atlaselite\recipes\addium_ingot.json
 5a82050bf75f6b3d859c8ce5ae56b145509f5fcc data\atlaselite\recipes\addium_slab.json
 4debecbc2264df176f6d4ad86a806d0cfb70e9f2 data\atlaselite\advancements\recipes\decorations\raw_addium_block.json
+22d41d30257b9a0c78d7f12c4773771f5ab10b11 data\atlaselite\advancements\recipes\decorations\addium_stained_glass.json
 5f8c50671919883013a1d46ae50ec76d4112f098 data\atlaselite\advancements\recipes\misc\addium_ingot_chestplate.json
 410fd78bde11b45ec4f66365d6cad2c4aa724342 data\atlaselite\recipes\weak_addium_slab.json
 2ef2ea24e426ea89ce85e3c10038f2af7809fb0f data\atlaselite\recipes\addium_sword.json
@@ -48,4 +49,5 @@ feafdbe5e9d0fcfa0d7ebbc65d1e6945f516d25c data\atlaselite\advancements\recipes\mi
 f2ca34c5625fd66d652b66ddcc290597136b4ce1 data\atlaselite\recipes\addium_hoe.json
 8393d39a984e43382a6bd8dc323ccabf80ac09e6 data\atlaselite\recipes\addium_ingot_boots.json
 185289cd9316aeeacd5f2548fdd49faf4f36ad1b data\atlaselite\recipes\addium_block.json
+11063e72d50039e09ca2de77b8e0b0dd07859f84 data\atlaselite\recipes\addium_stained_glass.json
 f8017a16b163ef198403eef5a726f5adcc061447 data\atlaselite\advancements\recipes\misc\addium_ingot_leggings.json

@@ -171,6 +171,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                     .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WEAK_ADDIUM_WALL)));
 
 
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ADDIUM_STAINED_GLASS, 1)
+                .input('A', ModItems.ADDIUM_INGOT)
+                .input('G', Items.GLASS)
+                .pattern(" A ")
+                .pattern("AGA")
+                .pattern(" A ")
+                .criterion(hasItem(ModItems.ADDIUM_INGOT), conditionsFromItem(ModItems.ADDIUM_INGOT))
+                .criterion(hasItem(Items.GLASS), conditionsFromItem(Items.GLASS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ADDIUM_STAINED_GLASS)));
+
+
         }
 
     }
