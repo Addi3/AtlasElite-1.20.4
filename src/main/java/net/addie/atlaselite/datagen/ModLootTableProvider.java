@@ -26,10 +26,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.ADDIUM_BLOCK);
+        addDrop(ModBlocks.WEAK_ADDIUM_BLOCK);
         addDrop(ModBlocks.RAW_ADDIUM_BLOCK);
         addDrop(ModBlocks.ADDIUM_WALL);
+        addDrop(ModBlocks.WEAK_ADDIUM_WALL);
         addDrop(ModBlocks.ADDIUM_SLAB, slabDrops(ModBlocks.ADDIUM_SLAB));
+        addDrop(ModBlocks.WEAK_ADDIUM_SLAB, slabDrops(ModBlocks.WEAK_ADDIUM_SLAB));
         addDrop(ModBlocks.ADDIUM_STAIRS);
+        addDrop(ModBlocks.WEAK_ADDIUM_STAIRS);
         addDrop(ModBlocks.ADDIUM_ORE, copperLikeOreDrops(ModBlocks.ADDIUM_ORE, ModItems.RAW_ADDIUM));
     }
 

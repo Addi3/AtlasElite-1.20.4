@@ -19,12 +19,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_BLOCK)
                 .add(ModBlocks.WEAK_ADDIUM_BLOCK)
+                .add(ModBlocks.WEAK_ADDIUM_SLAB)
+                .add(ModBlocks.WEAK_ADDIUM_STAIRS)
+                .add(ModBlocks.ADDIUM_SLAB)
+                .add(ModBlocks.ADDIUM_STAIRS)
                 .add(ModBlocks.ADDIUM_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_ORE)
                 .add(ModBlocks.ADDIUM_BLOCK)
+                .add(ModBlocks.WEAK_ADDIUM_SLAB)
+                .add(ModBlocks.WEAK_ADDIUM_STAIRS)
+                .add(ModBlocks.ADDIUM_SLAB)
+                .add(ModBlocks.ADDIUM_STAIRS)
                 .add(ModBlocks.WEAK_ADDIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.WALLS)

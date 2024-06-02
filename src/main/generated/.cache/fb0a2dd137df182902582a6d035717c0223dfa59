@@ -1,4 +1,4 @@
-// 1.20.4	2024-06-02T00:13:33.1705165	Atlas Elite/Tags for minecraft:block
-dbf5dfa917d7b30c1e922f898b23e674b6ec5b7f data\minecraft\tags\blocks\needs_iron_tool.json
+// 1.20.4	2024-06-02T01:03:13.5454281	Atlas Elite/Tags for minecraft:block
 eac117473b722f521f15b1e7217dbdbdae1843ef data\minecraft\tags\blocks\walls.json
-ddf3b939bbf4ceeb0a127fd37e03baf2c06daed5 data\minecraft\tags\blocks\mineable\pickaxe.json
+222a4330194f93439c2fd0481eb5d0839fb182cb data\minecraft\tags\blocks\needs_iron_tool.json
+1e4621e5776805ba63fde6e023cdba530131235f data\minecraft\tags\blocks\mineable\pickaxe.json
