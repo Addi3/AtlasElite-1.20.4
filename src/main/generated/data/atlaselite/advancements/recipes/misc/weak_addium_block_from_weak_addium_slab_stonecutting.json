@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:weak_addium_block_from_weak_addium_slab_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weak_addium_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atlaselite:weak_addium_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_weak_addium_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:weak_addium_block_from_weak_addium_slab_stonecutting"
+    ]
+  }
+}

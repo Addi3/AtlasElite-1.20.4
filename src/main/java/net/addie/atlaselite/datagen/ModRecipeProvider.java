@@ -28,6 +28,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, ADDIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ADDIUM_INGOT, 0.7f, 200, "addium");
         offerBlasting(exporter, ADDIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ADDIUM_INGOT, 0.7f, 150, "addium");
         RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModItems.SHATTERED_ADDIUM_INGOT, ModItems.ADDIUM_INGOT, 1);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_BLOCK, ModBlocks.ADDIUM_WALL, 1);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_BLOCK, ModBlocks.ADDIUM_SLAB, 1);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_BLOCK, ModBlocks.ADDIUM_STAIRS, 1);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_BLOCK, ModBlocks.WEAK_ADDIUM_STAIRS, 1);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_BLOCK, ModBlocks.WEAK_ADDIUM_WALL, 1);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_BLOCK, ModBlocks.WEAK_ADDIUM_SLAB, 1);
+
+
+
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_WALL, ModBlocks.ADDIUM_BLOCK, 3);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_SLAB, ModBlocks.ADDIUM_BLOCK, 4);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_STAIRS, ModBlocks.ADDIUM_BLOCK, 6);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_STAIRS, ModBlocks.WEAK_ADDIUM_BLOCK, 6);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_WALL, ModBlocks.WEAK_ADDIUM_BLOCK, 3);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_SLAB, ModBlocks.WEAK_ADDIUM_BLOCK, 4);
 
 
 
