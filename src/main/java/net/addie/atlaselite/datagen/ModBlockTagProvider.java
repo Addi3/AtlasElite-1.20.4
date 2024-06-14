@@ -24,8 +24,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WEAK_ADDIUM_STAIRS)
                 .add(ModBlocks.ADDIUM_SLAB)
                 .add(ModBlocks.ADDIUM_STAIRS)
-                .add(ModBlocks.ADDIUM_ORE);
+                .add(ModBlocks.ADDIUM_ORE)
+                .add(ModBlocks.PLATED_ADDIUM);
 
+        
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_ADDIUM_BLOCK)
                 .add(ModBlocks.ADDIUM_STAINED_GLASS)
@@ -35,7 +37,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WEAK_ADDIUM_STAIRS)
                 .add(ModBlocks.ADDIUM_SLAB)
                 .add(ModBlocks.ADDIUM_STAIRS)
-                .add(ModBlocks.WEAK_ADDIUM_BLOCK);
+                .add(ModBlocks.WEAK_ADDIUM_BLOCK)
+                .add(ModBlocks.PLATED_ADDIUM);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ADDIUM_WALL)

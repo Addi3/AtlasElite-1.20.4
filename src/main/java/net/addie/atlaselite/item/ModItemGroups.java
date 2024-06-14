@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_ADDIUM);
                         entries.add(ModBlocks.ADDIUM_BLOCK);
                         entries.add(ModBlocks.WEAK_ADDIUM_BLOCK);
+                        entries.add(ModBlocks.PLATED_ADDIUM);
                         entries.add(ModBlocks.ADDIUM_ORE);
                         entries.add(ModBlocks.RAW_ADDIUM_BLOCK);
                         entries.add(ModBlocks.ADDIUM_STAINED_GLASS);

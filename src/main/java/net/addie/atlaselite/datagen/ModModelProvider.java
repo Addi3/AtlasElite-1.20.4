@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ADDIUM_BLOCK);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_ORE);
      blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADDIUM_STAINED_GLASS);
+     blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PLATED_ADDIUM);
 
 
         addiumPoll.slab(ModBlocks.ADDIUM_SLAB);

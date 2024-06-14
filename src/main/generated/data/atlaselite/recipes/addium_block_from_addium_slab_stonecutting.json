@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "atlaselite:addium_slab"
+  },
+  "result": "atlaselite:addium_block"
+}

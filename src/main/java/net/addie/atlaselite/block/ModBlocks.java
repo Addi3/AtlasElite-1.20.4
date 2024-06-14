@@ -47,6 +47,9 @@ public class ModBlocks {
     public static final Block WEAK_ADDIUM_WALL = registerBlock("weak_addium_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
+    public static final Block PLATED_ADDIUM = registerBlock("plated_addium",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(AtlasElite.MOD_ID, name), block);

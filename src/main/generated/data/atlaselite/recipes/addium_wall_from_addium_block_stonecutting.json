@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 3,
+  "ingredient": {
+    "item": "atlaselite:addium_block"
+  },
+  "result": "atlaselite:addium_wall"
+}

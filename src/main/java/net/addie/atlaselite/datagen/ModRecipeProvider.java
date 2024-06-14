@@ -38,6 +38,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_WALL, ModBlocks.ADDIUM_BLOCK, 3);
+        RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.PLATED_ADDIUM, ModBlocks.ADDIUM_BLOCK, 1);
         RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_SLAB, ModBlocks.ADDIUM_BLOCK, 4);
         RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.ADDIUM_STAIRS, ModBlocks.ADDIUM_BLOCK, 6);
         RecipeProvider.offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.WEAK_ADDIUM_STAIRS, ModBlocks.WEAK_ADDIUM_BLOCK, 6);

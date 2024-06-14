@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "atlaselite:weak_addium_stairs"
+  },
+  "result": "atlaselite:weak_addium_block"
+}

@@ -1,4 +1,4 @@
-// 1.20.4	2024-06-02T19:02:48.104541	Atlas Elite/Model Definitions
+// 1.20.4	2024-06-14T21:53:52.9958112	Atlas Elite/Model Definitions
 4b00e69e3326a53ab09be3b3c759d65594ddb185 assets\atlaselite\models\block\weak_addium_block.json
 7d12b140dc22b5e71c7e24b229c9a6bc018d9ec9 assets\atlaselite\models\item\weak_addium_stairs.json
 4bb83333699070c02f1b00aacb9e9740a855847e assets\atlaselite\models\item\addium_ingot_helmet_quartz_trim.json
@@ -35,6 +35,7 @@ d234d83a759eefba547fed2104fcdabff909f53b assets\atlaselite\models\item\addium_in
 a7b1e2d8bdfdc2b202d68c76259cce5449050682 assets\atlaselite\models\item\addium_ingot_boots_copper_trim.json
 9cacde0ec79a6ad0f043663e0684c85125f85ca5 assets\atlaselite\models\item\addium_axe.json
 6cc2b6484e93deb27f15c2c8a9b93b50b51bbdae assets\atlaselite\models\item\addium_ingot_chestplate_diamond_trim.json
+53438375998340fd6008cd04afcddf67af05eaf5 assets\atlaselite\models\item\plated_addium.json
 ff628951cb68e0b6dd7bbf02dce2bb47afbf0350 assets\atlaselite\blockstates\addium_slab.json
 f3458b2ece91899be139df7d0ce4b209a283889e assets\atlaselite\models\item\addium_ingot_leggings_redstone_trim.json
 92e3a49f8b24c5d6a8df7e994440c9946225b588 assets\atlaselite\blockstates\addium_ore.json
@@ -49,6 +50,7 @@ ef38c1653d41504567d021eddc0cc8148883380d assets\atlaselite\models\item\addium_in
 9643a3a85050387f3daa9db679fc5e114867e0db assets\atlaselite\models\block\addium_wall_side.json
 8127945688bb626ebb6202089b59695aace92eea assets\atlaselite\models\block\weak_addium_stairs_outer.json
 48f900305a35768843eff6e2ea075aa0c55587b1 assets\atlaselite\models\item\addium_ingot_leggings_lapis_trim.json
+226d42dea5f74074dff7c6eb5635348572171c66 assets\atlaselite\models\block\plated_addium.json
 291168f25d333e6249f39752be3c71b5fee3b359 assets\atlaselite\models\item\addium_ingot_chestplate_emerald_trim.json
 c423dbe9ed2445eb74d959b8050978653ddc22e5 assets\atlaselite\models\item\addium_ingot_chestplate_redstone_trim.json
 8ea6d3a3429632f2224c93b011b0aa1696b758f2 assets\atlaselite\models\item\addium_ingot_boots_quartz_trim.json
@@ -76,6 +78,7 @@ fecba104ceb2ee8a9971c25a32814c6edc98bb79 assets\atlaselite\models\block\weak_add
 f37ea6ad445a9c5443ac87fa33ed894fb4b193bd assets\atlaselite\models\item\addium_ingot_leggings_amethyst_trim.json
 0da5cbfe7614735a8e0809d7e28c4881e181e890 assets\atlaselite\models\item\addium_ingot_leggings_emerald_trim.json
 68324c33047579f308148f5752bdd238bf9597b5 assets\atlaselite\models\block\raw_addium_block.json
+e5f8017bae7169b2d1246eef4e5f17e6a3d98d04 assets\atlaselite\blockstates\plated_addium.json
 64ce7ff5ba9161d77a382b384d4f111ab89fd983 assets\atlaselite\models\item\addium_block.json
 05bb3e4a94bd8ba595a17f4ae8f931d27076f477 assets\atlaselite\models\item\addium_ingot_helmet_amethyst_trim.json
 df2fc280689369961772cc3c8856bf14639a223a assets\atlaselite\models\item\addium_ore.json
