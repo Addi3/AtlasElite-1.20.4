@@ -1,4 +1,5 @@
-![](https://dub01pap001files.storage.live.com/y4mjNWO2UgCu39dzu0gFSMMEh1JEUsxVmL3WveleI6JFjvCkQRWPq3nLaISEpiBDsxzOHLXpcRyCAP-xN6tRMLM_qNAQyhr41vSZvYGWXNpf-JtwXkyyk4--OavIFNhiz9YIo2AnOgTZzTZslk85iO9IuhDZEQgWfOnOaVirJWhy9jbq73eT8ya25FsY2bKslPHccnyGI4nNPVNnRnRd12nHWPQyuUnT1DwvrJ6gWcT42A?encodeFailures=1&width=912&height=181)
+![atlas_elite_logo_text](https://github.com/Addi3/AtlasElite-1.20.4/assets/122154427/57af04f9-213a-430f-9f2b-9281b8786c7c)
+
 This mod adds a bunch of stuff that i want in Minecraft. But mainly resolves around Addium, an ingot that is the key to this mod, wether it's; tools, items, blocks, or cosmetics. They will all be made out of addium!
 
 ***
